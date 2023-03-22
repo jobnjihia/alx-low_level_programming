@@ -1,18 +1,16 @@
 #include "main.h"
 /**
  * main - prints _putchar
- * @c: The character to print
- * Return: On success 0.
+ * Returns: Always 0
  */
-int main(void)
+void print_alphabet(void)
+
 {
-	putchar ('_');
-	putchar ('p');
-	putchar ('u');
-	putchar ('t');
-	putchar ('c');
-	putchar ('h');
-	putchar ('a');
-	putchar ('r');
-	return (0);
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		_putchar(c);
+	}
+	_putchar('\n');
 }
