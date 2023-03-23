@@ -4,7 +4,6 @@
  * @c: int
  * Return: void
  */
-int _putchar(int c);
 void print_numbers(void)
 {
 	int c;
