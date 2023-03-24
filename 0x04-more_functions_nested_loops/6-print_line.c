@@ -4,20 +4,13 @@
  * @n: number of times the character _ should be printed
  * Return: int n
  */
-void print_diagonal(int n)
+void print_line(int n)
 {
 	int k;
 
-	if (k <= 0)
-	{
-	_putchar('\n');
-	}
-	else
-	{
 	for (k = 0; k < n; k++)
 	{
-	_putchar(95);
+		_putchar('_');
 	}
 	_putchar('\n');
-	}
 }
