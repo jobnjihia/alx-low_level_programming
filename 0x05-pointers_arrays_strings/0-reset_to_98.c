@@ -1,4 +1,4 @@
-#include "main"
+#include "stdio.h"
 /**
  * main -  updates the value it points to to 98
  * @n: Integer input pointer
