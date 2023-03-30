@@ -4,7 +4,7 @@
  * @n: byte size
  * @dest: Destination
  * @src: source
- * return: char
+ * Return: the pointer to dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
