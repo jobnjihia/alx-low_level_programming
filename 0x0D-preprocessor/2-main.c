@@ -1,10 +1,11 @@
 #include <stdio.h>
 /**
- * main - prints the name of the file from which it was compiled
+ * main - fill memory with a constant byte
+ *
  * Return: Always 0
  */
 int main(void)
 {
-	print("%s\n", _FILE_);
+	printf("%s\n", _FILE_);
 	return (0);
 }
