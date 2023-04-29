@@ -3,7 +3,8 @@
 
 /*
  * print_list - prints all the elements of a list_t list
- * @h: A pointer to the list_t for print
+ * @h: A pointer to the list_t for printi
+ *
  * Return: nodes printed
  */
 size_t print_list(const list_t *h)
