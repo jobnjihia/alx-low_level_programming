@@ -27,7 +27,7 @@ void check_elf(unsigned char *e_ident)
 {
 	int ind;
 
-	for (ind = 0; ind < 4; index++)
+	for (ind = 0; ind < 4; ind++)
 	{
 		if (e_ident[ind] != 127 &&
 		    e_ident[ind] != 'E' &&
@@ -56,7 +56,7 @@ void print_magic(unsigned char *e_ident)
 	{
 		printf("%02x", e_ident[ind]);
 
-		if (index == EI_NIDENT - 1)
+		if (ind == EI_NIDENT - 1)
 			printf("\n");
 		else
 			printf(" ");
