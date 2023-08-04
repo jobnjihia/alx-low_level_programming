@@ -1,4 +1,4 @@
-#include "main.h"
+i#include "main.h"
 /**
  * binary_to_uint - changes binary number to an unsigned integer
  * @b: input string cointaining binary

@@ -15,4 +15,5 @@ where index is the index, starting from 0 of the bit you want to set
 Prototype: int clear_bit(unsigned long int *n, unsigned int index);
 where index is the index, starting from 0 of the bit you want to set
 5.101 returns the number of bits you would need to flip to get from one number to another
-Prototype: unsigned int flip_bits(unsigned long int n, unsigned long int m); 
+Prototype: unsigned int flip_bits(unsigned long int n, unsigned long int m);
+~                                                                            
